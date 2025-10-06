@@ -39,3 +39,9 @@ luac.out
 *.x86_64
 *.hex
 
+# Storiies
+build/
+storiies/
+
+# VSCode
+.vscode/
