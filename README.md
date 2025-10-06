@@ -13,7 +13,7 @@ A **simple and intuitive** children-friendly MP3 player designed specifically fo
 ## 📱 Screens
 
 ### 📚 Albums View
-![Albums View](.github/albums.png)
+![Albums View](https://raw.githubusercontent.com/pcorbel/storiies/main/.github/albums.png)
 
 **Controls:**
 
@@ -24,7 +24,7 @@ A **simple and intuitive** children-friendly MP3 player designed specifically fo
 | 🅰️ | Select album and go to tracks view |
 
 ### 🎵 Tracks View
-![Tracks View](.github/tracks.png)
+![Tracks View](https://raw.githubusercontent.com/pcorbel/storiies/main/.github/tracks.png)
 
 **Controls:**
 
@@ -36,7 +36,7 @@ A **simple and intuitive** children-friendly MP3 player designed specifically fo
 | 🅱️ | Go back to albums view |
 
 ### ▶️ Player View
-![Player View](.github/player.png)
+![Player View](https://raw.githubusercontent.com/pcorbel/storiies/main/.github/player.png)
 
 **Controls:**
 
