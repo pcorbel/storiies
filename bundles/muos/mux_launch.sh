@@ -12,17 +12,14 @@ fi
 echo app >/tmp/act_go
 
 APPDIR="$(GET_VAR "device" "storage/rom/mount")/MUOS/application/Storiies"
-PM_DIR="$(GET_VAR "device" "storage/rom/mount")/MUOS/PortMaster"
 BINDIR="$APPDIR/bin"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$APPDIR/libs"
 
 SETUP_SDL_ENVIRONMENT
-export LD_LIBRARY_PATH="$PM_DIR:$APPDIR/libs:$LD_LIBRARY_PATH"
-
-cd "$APPDIR" || exit
 SET_VAR "system" "foreground_process" "love"
 
-"$PM_DIR"/gptokeyb2 "love" -c "$APPDIR"/storiies.gptk &
-
+cd "$APPDIR" || exit
+"$BINDIR"/gptokeyb2 "love" -c "$APPDIR"/storiies.gptk &
 "$BINDIR"/love .
 
 kill -9 "$(pidof gptokeyb2)" 2>/dev/null

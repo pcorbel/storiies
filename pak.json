@@ -1,0 +1,22 @@
+{
+    "name": "Storiies",
+    "version": "v1.0.1",
+    "type": "TOOL",
+    "description": "A simple, intuitive and kid-friendly MP3 player for retro-handhelds.",
+    "author": "pcorbel",
+    "repo_url": "https://github.com/pcorbel/storiies",
+    "release_filename": "Storiies.pak.zip",
+    "changelog": {
+      "v1.0.0": "Initial release",
+      "v1.0.1": "Added support for NextUI"
+    },
+    "update_ignore": [],
+    "screenshots": [
+      ".github/albums.png",
+      ".github/tracks.png",
+      ".github/player.png"
+    ],
+    "platforms": [
+      "tg5040"
+    ]
+  }
