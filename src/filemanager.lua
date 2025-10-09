@@ -31,13 +31,16 @@ function FileManager:listAlbums(path)
 
     local function scanDirectory(currentPath)
         for _, item in ipairs(love.filesystem.getDirectoryItems(currentPath)) do
-            local itemPath = currentPath .. "/" .. item
-            local info = love.filesystem.getInfo(itemPath)
+            -- Skip metadata files
+            if not item:match("^%._") then
+                local itemPath = currentPath .. "/" .. item
+                local info = love.filesystem.getInfo(itemPath)
 
-            if info.type == "directory" then
-                local albumName = itemPath:gsub("^" .. path .. "/", "")
-                table.insert(albums, albumName)
-                scanDirectory(itemPath)
+                if info.type == "directory" then
+                    local albumName = itemPath:gsub("^" .. path .. "/", "")
+                    table.insert(albums, albumName)
+                    scanDirectory(itemPath)
+                end
             end
         end
     end
@@ -69,9 +72,12 @@ function FileManager:getAlbumFiles(albumName)
     if self:albumExists(albumName) then
         local albumPath = self:getAlbumPath(albumName)
         for _, item in ipairs(love.filesystem.getDirectoryItems(albumPath)) do
-            local info = love.filesystem.getInfo(albumPath .. "/" .. item)
-            if info.type == "file" then
-                table.insert(files, item)
+            -- Skip macOS metadata files
+            if not item:match("^%._") then
+                local info = love.filesystem.getInfo(albumPath .. "/" .. item)
+                if info.type == "file" then
+                    table.insert(files, item)
+                end
             end
         end
     end
