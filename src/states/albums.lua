@@ -49,7 +49,7 @@ function Albums:draw()
         Utils.draw_title(albums[currentAlbumIndex], hasCover, coverY, coverSize, screenWidth, screenHeight, font,
             Config.UI.FONT_SIZE)
     else
-        Utils.draw_no_items_message("No storiies found in /MUOS/application/Storii/storiies", font, screenWidth,
+        Utils.draw_no_items_message("No albums found in the storiies folder", font, screenWidth,
             screenHeight)
     end
 end
