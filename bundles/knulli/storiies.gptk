@@ -1,0 +1,10 @@
+[controls]
+up = up
+down = down
+left = left
+right = right
+a = b
+b = a
+back = esc
+guide = esc
+start = esc
