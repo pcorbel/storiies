@@ -14,39 +14,39 @@ A **simple, intuitive and kid-friendly** MP3 player for retro-handhelds. 🎮�
 
 ### 📚 Albums View
 
-![Albums View](https://raw.githubusercontent.com/pcorbel/storiies/main/.github/albums.png)
+![Albums View](https://raw.githubusercontent.com/pcorbel/storiies/main/.github/brick-albums.png)
 
 **Controls:**
 
 | Button | Action                             |
 | ------ | ---------------------------------- |
-| ⬅️➡️   | Navigate between albums            |
-| ⬆️⬇️   | Jump 10 albums at a time           |
+| ⬅️/➡️  | Navigate between albums            |
+| ⬆️/⬇️  | Jump 10 albums at a time           |
 | 🅰️     | Select album and go to tracks view |
 
 ### 🎵 Tracks View
 
-![Tracks View](https://raw.githubusercontent.com/pcorbel/storiies/main/.github/tracks.png)
+![Tracks View](https://raw.githubusercontent.com/pcorbel/storiies/main/.github/brick-tracks.png)
 
 **Controls:**
 
 | Button | Action                         |
 | ------ | ------------------------------ |
-| ⬅️➡️   | Navigate between tracks        |
-| ⬆️⬇️   | Jump 10 tracks at a time       |
+| ⬅️/➡️  | Navigate between tracks        |
+| ⬆️/⬇️  | Jump 10 tracks at a time       |
 | 🅰️     | Select track and start playing |
 | 🅱️     | Go back to albums view         |
 
 ### ▶️ Player View
 
-![Player View](https://raw.githubusercontent.com/pcorbel/storiies/main/.github/player.png)
+![Player View](https://raw.githubusercontent.com/pcorbel/storiies/main/.github/brick-player.png)
 
 **Controls:**
 
 | Button | Action                          |
 | ------ | ------------------------------- |
 | 🅰️     | Play/Pause                      |
-| ⬅️➡️   | Seek backward/forward           |
+| ⬅️/➡️  | Seek backward/forward           |
 | 🅱️     | Stop and go back to tracks view |
 
 **Features:**
