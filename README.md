@@ -14,7 +14,9 @@ A **simple, intuitive and kid-friendly** MP3 player for retro-handhelds. 🎮�
 
 ### 📚 Albums View
 
-![Albums View](https://raw.githubusercontent.com/pcorbel/storiies/main/.github/brick-albums.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pcorbel/storiies/main/.github/brick-albums.png" alt="Albums View" width="256">
+</p>
 
 **Controls:**
 
@@ -26,7 +28,9 @@ A **simple, intuitive and kid-friendly** MP3 player for retro-handhelds. 🎮�
 
 ### 🎵 Tracks View
 
-![Tracks View](https://raw.githubusercontent.com/pcorbel/storiies/main/.github/brick-tracks.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pcorbel/storiies/main/.github/brick-tracks.png" alt="Tracks View" width="256">
+</p>
 
 **Controls:**
 
@@ -39,7 +43,9 @@ A **simple, intuitive and kid-friendly** MP3 player for retro-handhelds. 🎮�
 
 ### ▶️ Player View
 
-![Player View](https://raw.githubusercontent.com/pcorbel/storiies/main/.github/brick-player.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pcorbel/storiies/main/.github/brick-player.png" alt="Player View" width="256">
+</p>
 
 **Controls:**
 
