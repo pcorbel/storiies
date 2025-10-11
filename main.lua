@@ -21,8 +21,8 @@ function love.load()
     }
     stateData:setIcons(icons)
 
-    local Albums = require("src.states.albums")
-    StateManager:switch(Albums:new())
+    local Splash = require("src.states.splash")
+    StateManager:switch(Splash:new())
 end
 
 function love.update(dt)
