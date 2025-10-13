@@ -32,18 +32,18 @@ build-nextui:
 	rm -rf build/nextui
 
 	# Create the Storiies directory
-	mkdir -p build/nextui/Storiies.pak
+	mkdir -p build/nextui
 
 	# Copy bundle files
-	cp -r bundles/nextui/* build/nextui/Storiies.pak
-	cp -r bundles/shared/* build/nextui/Storiies.pak
+	cp -r bundles/nextui/* build/nextui
+	cp -r bundles/shared/* build/nextui
 
 	# Copy the README.md
-	cp README.md build/nextui/Storiies.pak/
+	cp README.md build/nextui
 
 	# Copy the application files
-	cp -r src assets build/nextui/Storiies.pak/
-	cp -r main.lua conf.lua build/nextui/Storiies.pak/
+	cp -r src assets build/nextui
+	cp -r main.lua conf.lua build/nextui
 
 	# Create the zip file
 	cd build/nextui && zip -9 -r Storiies.pak.zip .
