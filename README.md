@@ -59,6 +59,10 @@ A **simple, intuitive and kid-friendly** MP3 player for retro-handhelds. 🎮�
 
 - 🌙 **Dimmable Screen**: The screen automatically dims after a period of inactivity so kids won't look at the screen too much while listening to stories. Touch any button to brighten the screen again.
 
+### 🚪 Quitting the App
+
+To quit the application, **hold the Start / Select / Menu button for 2 seconds**.
+
 ## 🚀 Installation
 
 ### For muOS

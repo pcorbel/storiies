@@ -1,6 +1,7 @@
 local StateManagerClass = require("src.statemanager")
 
 StateManager = StateManagerClass:new()
+local escapeHoldTime = 0
 
 function love.load()
     local Config = require("src.config")
@@ -26,6 +27,13 @@ function love.load()
 end
 
 function love.update(dt)
+    if love.keyboard.isDown("escape") then
+        escapeHoldTime = escapeHoldTime + dt
+        if escapeHoldTime >= 2.0 then
+            love.event.quit()
+        end
+    end
+
     StateManager:update(dt)
 end
 
@@ -34,8 +42,11 @@ function love.draw()
 end
 
 function love.keypressed(key)
-    if key == "escape" then
-        love.event.quit()
-    end
     StateManager:keypressed(key)
+end
+
+function love.keyreleased(key)
+    if key == "escape" then
+        escapeHoldTime = 0
+    end
 end

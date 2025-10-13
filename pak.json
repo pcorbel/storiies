@@ -1,6 +1,6 @@
 {
     "name": "Storiies",
-    "version": "v1.0.1",
+    "version": "v1.0.4",
     "type": "TOOL",
     "description": "A simple, intuitive and kid-friendly MP3 player for retro-handhelds.",
     "author": "pcorbel",
@@ -8,7 +8,10 @@
     "release_filename": "Storiies.pak.zip",
     "changelog": {
       "v1.0.0": "Initial release",
-      "v1.0.1": "Added support for NextUI"
+      "v1.0.1": "Added support for NextUI",
+      "v1.0.2": "Added support for Knulli",
+      "v1.0.3": "Added splash screen",
+      "v1.0.4": "Added support for nextui-pak-store"
     },
     "update_ignore": [],
     "screenshots": [
